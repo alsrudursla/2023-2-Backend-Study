@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+!Week4/GDSC_4th_HW/src/main/**/out/
+!Week4/GDSC_4th_HW/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +12,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!Week4/GDSC_4th_HW/src/main/**/bin/
+!Week4/GDSC_4th_HW/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
