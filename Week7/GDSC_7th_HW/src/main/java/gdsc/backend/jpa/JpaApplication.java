@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Week7.GDSC_7th_HW.src.main.java.gdsc.backend.jpa.JpaApplication.class, args);
+		SpringApplication.run(JpaApplication.class, args);
 	}
 
 }

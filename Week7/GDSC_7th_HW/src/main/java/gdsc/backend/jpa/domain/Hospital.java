@@ -1,20 +1,22 @@
-package gdsc.backend.jpa;
+package gdsc.backend.jpa.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class medicalDepartment {
+@Entity
+@NoArgsConstructor(access = AccessLevel.PUBLIC)
+public class Hospital {
+
+    public Hospital(String name) {
+        this.name = name;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
-
-    @ManyToOne
-    private hospital hospital;
 }

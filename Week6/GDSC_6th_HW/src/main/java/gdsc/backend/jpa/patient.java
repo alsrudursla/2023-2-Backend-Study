@@ -2,11 +2,13 @@ package gdsc.backend.jpa;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Entity
+@Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class patient {
     @Id
@@ -15,6 +17,6 @@ public class patient {
 
     private String name;
 
-    @OneToMany
-    private List<reservation> reservation;
+//    @OneToMany
+//    private List<reservation> reservation;
 }
